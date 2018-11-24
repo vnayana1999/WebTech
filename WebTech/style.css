@@ -1,0 +1,228 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 1, 2018, 4:48:56 PM
+    Author     : Prathiba
+*/
+body{
+   /* background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(p5.png);*/
+
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.login{
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto;
+}
+.form{
+    position: relative;
+    z-index: 1;
+ /*  background: black;*/
+
+    max-width: 360px;
+    margin:0 auto 100px;
+    padding: 45px;
+    text-align: center;
+}
+
+.form input{
+    font-family: "Roboto",sans-serif;
+    outline: 1;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin:0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button{
+    font-family: "Roboto",sans-serif;
+    text-transform: uppercase;
+    outline:0;
+    background: black;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor:pointer;
+}
+
+.form button:hover,.form button:active{
+    background: #43A047;
+}
+
+.form .message{
+    margin:15px 0 0;
+    color: aliceblue;
+    font-size: 12px;
+}
+
+.form .message a{
+    color:#4CAF50;
+    text-decoration: none;
+}
+
+.form .register{
+    display:none;
+}
+<!--* {
+  box-sizing:border-box;
+}-->
+.right
+{
+	position:absolute;
+	top:50%;
+	right:10%;
+	transform:translate(0%,-50%);
+	-ms-transform:translate(0%,-50%)
+}
+.right1
+{
+	right:0;
+	
+}
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 3px;
+    overflow: hidden;	
+}
+li
+{
+    float: left;
+}
+li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Times New Roman;
+    font-size: 20px; 
+}
+li a:hover:not(.active)
+{
+    background-color: black;
+}
+.active
+{
+    background-color: bl;
+}
+	
+.btn
+{
+	
+	border: 2px solid black;	
+	background-color: white;
+	color: black;
+	padding: 14px 28px;
+	font-size: 16px;
+	width:20%;
+	cursor: pointer;
+}
+.btn:hover
+{
+	background-color: black;
+	color: white;
+}
+
+.outlineb
+{
+	padding:14px 20px;
+	border-color:black ;
+	color: black;
+}
+
+.outlineb:hover
+{
+	background-color: red;
+	color: white;
+}
+
+
+body
+{
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.row:after
+{
+	content: "";
+	display: table;
+	clear: both
+}
+
+.column-66
+{
+	float: left;
+	width: 66.66666%;
+	padding: 90px;
+}
+
+.column-33
+{
+	float: left;
+	width: 33.33333%;
+	padding: 20px;
+}
+
+.green1
+{
+	font-size: 68px;
+	color:#8CC152;
+}
+.blue1
+{
+	color:yellow;
+}
+.pink1
+{
+	color:#DA4453;
+}
+.white1
+{
+	
+	color:white;
+}
+
+.button
+{
+	border: none;
+	color: white;
+	padding: 14px 28px;
+	font-size: 16px;
+	cursor: pointer;
+	background-color: black;
+}
+
+img
+{
+	display: block;
+	height: auto;
+	max-width: 100%;
+}
+
+@media screen and (max-width: 1000px)
+{
+	.column-66,
+	.column-33
+			{
+				width: 100%;
+				text-align: center;
+			}
+  img
+	{
+		margin: auto;
+	}
+}  
